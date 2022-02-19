@@ -1,0 +1,141 @@
+.tituloPrincipal {
+  text-align: center;
+
+  font-size: 4em;
+  font-family: "Fjalla One", sans-serif;
+  color: azure;
+  background-color: #f21d2f;
+  border-radius: 8px;
+}
+
+.tituloNav {
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 45px;
+  color: azure;
+}
+
+.fondo {
+  background-color: rgb(34, 34, 34);
+}
+
+.headerImg {
+  object-fit: cover;
+  position: relative;
+  opacity: 1;
+}
+
+.secc1 {
+  text-align: center !important;
+  font-family: "Fjalla One", sans-serif;
+  color: azure;
+  font-size: 25px;
+}
+
+div.galeriaInicio {
+  margin: auto;
+  border: 6px solid #f21d2f;
+  width: 510px;
+  box-shadow: 10px;
+  border-radius: 2px;
+}
+
+div.galeriaInicio img {
+  border-bottom: 6px solid #f21d2f;
+  max-width: 510px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+div.linkImg {
+  padding: 15px;
+  text-align: center;
+}
+
+div.linkImg a {
+  text-decoration: none;
+  color: azure;
+  margin: 10px;
+}
+
+div.linkImg a:hover {
+  background-color: #f21d2f;
+  border: 8px solid #f21d2f;
+  border-radius: 4px;
+  transition: 300ms;
+}
+
+.fila {
+  display: flex;
+}
+
+.columna {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.tituloBackCM {
+  text-decoration: none;
+  transition: 200ms;
+}
+
+.tituloBackCM:hover {
+  font-size: 18px;
+  font-size-adjust: 15px;
+  transition: 200ms;
+}
+
+.MCap {
+  width: auto;
+  height: auto;
+  max-width: 480px;
+  max-height: 480px;
+  border: 5px solid #f21d2f;
+  border-radius: 2px;
+}
+
+#parrafitoCM {
+  text-align: left;
+  margin: 10px;
+}
+
+.textFCM {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 18px;
+  color: azure;
+  margin: 30px;
+  margin-left: 8em;
+  margin-right: 8em;
+  text-align: center;
+  border-top: 5px solid #f21d2f;
+  border-radius: 2px;
+}
+
+.linkFCM {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 18px;
+  color: azure;
+  margin: 10px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.linkFCM:hover {
+  color: #f21d2f;
+  transition: 200ms;
+}
+
+.footer1 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 18px;
+  color: azure;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-top: 5px solid #f21d2f;
+  border-radius: 2px;
+}
